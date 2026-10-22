@@ -57,3 +57,4 @@ then
 fi
 
 $PSQL "UPDATE users SET games_played=$GAMES_PLAYED, best_game=$BEST_GAME WHERE username='$USERNAME'"
+
